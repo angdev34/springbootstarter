@@ -1,0 +1,12 @@
+{
+  "name": "Java Spring Boot",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "java.jdt.ls.vmargs": "-Dfile.encoding=UTF-8",
+    "java.home": "/usr/local/openjdk-17",
+    "java.mavenWrapperVersion": "3.8.2",
+    "maven.installationsPath": "/usr/share/maven"
+  },
+  "extensions": ["vscjava.vscode-java-pack"],
+  "forwardPorts": [8080]
+}
