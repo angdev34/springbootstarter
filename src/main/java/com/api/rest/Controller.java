@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class GuardController {
+public class Controller {
     @GetMapping("/isAlive")
     public String isAllive() {
         return "test";
